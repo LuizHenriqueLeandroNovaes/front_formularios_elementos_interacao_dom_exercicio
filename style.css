@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+form{
+    background-color: white;
+    width: 420px;
+    height: 1400px;
+    padding-top: 5px;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    margin-left: 60px;
+}
+
+h2{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+input{
+    width: 330px;
+    height: 48px;
+    padding: 5px;
+    margin-left: 30px;
+}
+
+select{
+    width: 330px;
+    height: 48px;
+    padding: 5px;
+    margin-left: 30px;
+}
+
+.digitar{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   margin-top: 40px;
+   margin-left: -60px;
+}
+
+
+.digitar label{
+    font-family: sans-serif;
+    text-align: left;
+    display: flex;
+    align-items:flex-start;
+}
+
+
+
+.bola{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 30px;
+}
+
+.bola input{
+    width: 20px;  
+}
+
+.bola div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+.blocao{
+    display: flex;
+    flex-direction: column;
+    margin-left: 650px;
+    margin-top: 20px;
+}
+
+.digitar label{
+    font-weight: bold;
+}
+
+button{
+    color: white;
+    background-color: green;
+    width : 330px;
+    margin-left: 30px;
+    padding: 15px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="blocao">
+
+        <h1>Inscrição Vestibular</h1> <br>
+        
+        <form>
+
+            <div class="digitar">
+                <label for="nome">Informe seu nome</label> 
+                <input id="nome" type="text" placeholder="Ex: João da Silva">
+          
+                <label for="email">Informe seu e-mail</label> 
+                <input id="email" type="email" placeholder="email@email.com">
+            
+                <label for="ano">Informe seu ano de nascimento</label> 
+                <input id="ano" type="number" placeholder="EX: 1992"> 
+            </div> 
+
+            
+
+        <div>
+
+            <h2>Selecione sua cidade da prova</h2>
+
+            <select name="select" id="cidades">
+              
+              <option value="Vazio">Selecione uma cidade</option>
+              <option value="Maringá">Maringá</option>
+              <option value="Presidente prudente">Presidente prudente</option>
+              <option value="Salvador">Salvador</option>
+              <option value="São Paulo">São Paulo</option>
+    
+            </select>
+
+        </div>
+
+        
+            
+
+            <div class="bola">
+
+                
+
+                <h2>Em qual periodo desejas realizar a prova ?</h2>
+
+                <div>       
+                    <label for="m">Manhã</label> 
+                    <input id="m" type="radio" value="Manhã" required>
+                </div>
+             
+                <div>          
+                    <label for="t">Tarde</label> 
+                    <input id="t" type="radio" value="Tarde" required>
+                </div>
+
+                <div>         
+                    <label for="n">Noite</label> 
+                    <input id="n" type="radio" value="Noite" required>
+                </div>
+                
+           
+
+
+                <h2>Em quais cursos voces tem interesse</h2>
+
+                <div>
+                    <label for="M" >Matematica</label> 
+                    <input id="M" type="checkbox" name="Matematica" >
+                </div>
+            
+                <div>
+                    <label for="cc" >Ciência da computação</label> 
+                    <input id="cc" type="checkbox" name="Ciência da computação" >
+                </div>
+                
+                <div>
+                    <label for="ds" >Data Science</label> 
+                    <input id="ds" type="checkbox" name="Data Science" >
+                </div>
+
+
+                
+            </div>
+
+            <div class="digitar">
+                <label for="senha">Senha de recuperação</label> 
+                <input id="senha" type="password" placeholder="EX: 1992">
+            </div> 
+
+
+            <span id="erro"></span>
+             
+            <button>Salvar</button>
+            
+        </form>
+
+    </div>
+    
+</body>
+
+<script type="text/javascript" src="arquivo.js"></script>
+
+</html>
